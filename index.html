@@ -23,86 +23,68 @@
                 click
                 </a>
             </td>
-            <td>Apple iphone 11 64GB Red Refurbished</td>
-        </tr>
-        <tr>
             <td>
-                iphone 11
+                Apple iphone 11 64GB Red Refurbished
             </td>
-
             <td>
                 €550,00
             </td>
         </tr>
-        <td>
-            <img src = "https://unsplash.it/200">
-        </td>
-        <td>
-            <a href="https://www.cyberport.de/apple-und-zubehoer/apple-macbook-pro/apple/pdp/1a07-0rc/apple-macbook-pro-16-2021-m1-pro-16-1-tb-10c-cpu-16c-gpu-space-grau-mk193d-a.html">
-            click
-            </a>
-        </td>
-        <td>Apple MacBook Pro 16" 2021 M1 Pro/16/1 TB 10C CPU 16C GPU Space Gray MK193D/A</td>
         <tr>
             <td>
-                Apple MacBook Pro 16"
+                <img src = "https://unsplash.it/200">
             </td>
-            
             <td>
-                €2.899,00
+                <a href="https://www.cyberport.de/apple-und-zubehoer/apple-macbook-pro/apple/pdp/1a07-0rc/apple-macbook-pro-16-2021-m1-pro-16-1-tb-10c-cpu-16c-gpu-space-grau-mk193d-a.html">
+                  click
+                </a>
+            </td>
+            <td>
+               Apple MacBook Pro 16" 2021 M1 Pro/16/1TB 10C CPU 16C GPU Space Gray MK193D/A
+            </td>
+            <td>
+               €2.899,00
             </td>
         </tr>
-        <td>
-            <img src = "https://unsplash.it/200">
-        </td>
-        <td>
-            <a href="https://www.refurbed.de/p/samsung-galaxy-s21-5g/">
-            click
-            </a>
-        </td>
-        <td>Samsung Galaxy S21 5G 128GB | Dual-SIM | Phantom Gray</td>
             <td>
-        <tr>
-            <td>
-                Samsung Galaxy S21 5G
+               <img src = "https://unsplash.it/200">
             </td>
-
+            <td>
+               <a href="https://www.refurbed.de/p/samsung-galaxy-s21-5g/">
+                  click
+               </a>
+            </td>
+            <td>Samsung Galaxy S21 5G 128GB | Dual-SIM | Phantom Gray</td>
+            <td>
             <td>
                 €452,99
             </td>
         </tr>
-        <td>
-            <img src = "https://unsplash.it/200">
-        </td>
-        <td>
-            <a href="https://www.google.com/search?q=huawei+p50+pro&rlz=1C1CHBF_enDE881DE881&sxsrf=ALiCzsYdr4K_V8Dw2fFqTjdmdbVIXN0hPQ:1652283737500&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjroPfJ5Nf3AhWkRvEDHaBdB8gQ_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#spd=13782342833287509424">
-                click
-            </a>
-        </td>
-        <td>Huawei P50 Pro 256GB Golden Black Dual-SIM</td>
-        <tr>
             <td>
-                Huawei P50 Pro
+               <img src = "https://unsplash.it/200">
+            </td>
+            <td>
+               <a href="https://www.google.com/search?q=huawei+p50+pro&rlz=1C1CHBF_enDE881DE881&sxsrf=ALiCzsYdr4K_V8Dw2fFqTjdmdbVIXN0hPQ:1652283737500&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjroPfJ5Nf3AhWkRvEDHaBdB8gQ_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#spd=13782342833287509424">
+                   click
+               </a>
+            </td>
+            <td>Huawei P50 Pro 256GB Golden Black Dual-SIM
             </td>
             <td>
                 €999,00
             </td>
         </tr>
-        <td>
-            <img src = "https://unsplash.it/200">
-        </td>
-        <td>
-            <a href="https://www.google.com/search?q=Xiaomi+Redmi+Note+9+Pro&rlz=1C1CHBF_enDE881DE881&sxsrf=ALiCzsaw610qY_5yXtB_HXwpJ3EYZ6AJjQ:1652284183305&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjY58Ce5tf3AhWISPEDHZObAgEQ_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#spd=4665752602148848747">
-            click
-            </a>
-        </td>
-        <td>Xiaomi Redmi Note 9 Pro 128GB Green</td>
-
-        <tr>
             <td>
-                Xiaomi Redmi Note 9 Pro  
+               <img src = "https://unsplash.it/200">
             </td>
-            
+            <td>
+                <a href="https://www.google.com/search?q=Xiaomi+Redmi+Note+9+Pro&rlz=1C1CHBF_enDE881DE881&sxsrf=ALiCzsaw610qY_5yXtB_HXwpJ3EYZ6AJjQ:1652284183305&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjY58Ce5tf3AhWISPEDHZObAgEQ_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#spd=4665752602148848747">
+                    click
+                </a>
+            </td>
+            <td>
+                Xiaomi Redmi Note 9 Pro 128GB Green
+            </td>
             <td>
                 €329,90
             </td>
@@ -138,6 +120,22 @@
             for(let image of document.querySelectorAll("img")) {
                 image.classList.toggle("hidden") 
             }
+        }
+
+        function setRandomColorWhenInvoked() {
+            const color = getRandomColorWhenInvoked();
+
+            for (let price of document.querySelectorAll('tr > td:nth-child(4)')) {
+                price.style.color = color;
+            }
+        }
+
+        function getRandomColorWhenInvoked() {
+            const red = Math.round(Math.random() * 255);
+            const green = Math.round(Math.random() * 255);
+            const blue = Math.round(Math.random() * 255);
+
+            return "rgb ("+ red +", "+ green +", "+ blue +")";
         }
     </script>
 </body>
