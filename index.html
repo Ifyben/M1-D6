@@ -4,6 +4,9 @@
         .giant-font {
             font-size: 1.5em
         }
+        .hidden {
+            visibility: hidden
+        }
     </style>
 <title>Ifee's Media Shop</title>
 </head>
@@ -129,6 +132,11 @@
         function addCssClassToLinks(){
             for(let node of document.querySelectorAll("a")) {
                 node.classList.add("giant-font") 
+            }
+        }
+        function toggleCssClassForAllImg() {
+            for(let image of document.querySelectorAll("img")) {
+                image.classList.toggle("hidden") 
             }
         }
     </script>
