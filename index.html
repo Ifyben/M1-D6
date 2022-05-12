@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <head>
+    <style>
+        .giant-font {
+            font-size: 1.5em
+        }
+    </style>
 <title>Ifee's Media Shop</title>
 </head>
 <body>
@@ -120,6 +125,11 @@
         }
         function changeAddressToAnother() {
             document.querySelector("footer > div:nth-child(2)").innerHTML = "4921 Waldeck Street, Grapevine TX, 76051 Texas"
+        }
+        function addCssClassToLinks(){
+            for(let node of document.querySelectorAll("a")) {
+                node.classList.add("giant-font") 
+            }
         }
     </script>
 </body>
